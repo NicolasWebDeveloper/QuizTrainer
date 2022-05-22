@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #4287f5, #0062ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main-box {
+  text-align: center;
+  border-radius: 2rem;
+  width: 70vw;
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.question {
+  font-size: 3rem;
+}
+
+.question-box {
+  margin-top: 10rem;
+}
+
+.title {
+  padding: 1rem 0 0 0;
+  font-size: 4rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn-s {
+  color: white;
+  margin: 1rem;
+  padding: 2rem;
+  background-color: #4287f5;
+  border-radius: 9999999999px;
+}
+
+.answer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.answer {
+  width: 24vw;
+  height: 15vh;
+  background-color: #ccd9ed;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.congratulation-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40rem;
+  height: 20rem;
+  border-radius: 2rem;
+  text-align: center;
+  position: fixed;
+  background-color: #D1D1D1;
+}
+
+.visible {
+  visibility: hidden;
+}

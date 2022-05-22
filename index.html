@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz Trainer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Style -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  </head>
+  <body>
+    <div class="congratulation-box visible" id="congratulation-box">
+      <h1>🎉Congratulations!🎉</h1>
+      <h2>Your Answer is correct!</h2>
+    </div>
+    <div class="main">
+      <div class="main-box">
+        <!-- Question -->
+        <div class="question-box">
+        <h2 class="question" id="question">What is 1 + 1?</h2>
+
+          <div class="answer-container">
+            <div class="answer">
+              <h4 id="answer-1">Test</h4>
+            </div>
+            <div class="answer">
+              <h4 id="answer-2">Test</h4>
+            </div>
+          </div>
+        </div>
+        <!-- Question End -->
+        <div class="buttons">
+          <a href="#" class="button btn-s" id="backButton">
+            <i class="fa-solid fa-arrow-left fa-2xl"></i>
+          </a>
+          <h1><span id="currentQuestion">0</span> | <span id="maxQuestions">10</span></h1>
+          <a href="#" class="button btn-s" id="forwardButton">
+            <i class="fa-solid fa-arrow-right fa-2xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
